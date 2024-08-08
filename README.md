@@ -1,5 +1,7 @@
 # Template Node
 
+![Build Workflow](https://github.com/jdevelop-io/template-node/actions/workflows/buid.yml/badge.svg)
+
 **Template Node** is a Node.js project scaffolding tool designed to speed up the initial setup of Node.js applications.
 This repository provides a solid foundation for building scalable and maintainable Node.js projects, with built-in best practices and commonly used configurations.
 
@@ -39,6 +41,9 @@ Make sure you have Node.js and Bun installed on your machine before running the 
 
 ```plaintext
 template-node
+├── .github
+│   └── workflows
+│       └── build.yml
 ├── node_modules
 ├── LICENSE
 ├── README.md

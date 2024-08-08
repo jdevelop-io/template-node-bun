@@ -1,6 +1,7 @@
 # Template Node
 
 [![Build Workflow](https://github.com/jdevelop-io/template-node/actions/workflows/build.yml/badge.svg)](https://github.com/jdevelop-io/template-node/actions/workflows/build.yml)
+[![Tests Workflow](https://github.com/jdevelop-io/template-node/actions/workflows/tests.yml/badge.svg)](https://github.com/jdevelop-io/template-node/actions/workflows/tests.yml)
 [![License](https://img.shields.io/github/license/jdevelop-io/template-node)](/LICENSE)
 [![WakaTime](https://wakatime.com/badge/user/b5dd94a4-c0ea-4c12-9cb2-41f984e74fdc/project/e774c158-4cbd-4a4e-a265-1c08e6e84c3d.svg)](https://wakatime.com/badge/user/b5dd94a4-c0ea-4c12-9cb2-41f984e74fdc/project/e774c158-4cbd-4a4e-a265-1c08e6e84c3d)
 

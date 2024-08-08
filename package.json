@@ -1,0 +1,18 @@
+{
+  "name": "@jdevelop/template-node",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Jean-Denis VIDOT",
+    "email": "contact@jdevelop.io"
+  },
+  "engines": {
+    "node": "^22.5.1",
+    "bun": "^1.1.17"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6"
+  }
+}

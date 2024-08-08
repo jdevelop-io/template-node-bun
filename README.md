@@ -1,6 +1,7 @@
 # Template Node
 
 [![Build Workflow](https://github.com/jdevelop-io/template-node/actions/workflows/build.yml/badge.svg)](https://github.com/jdevelop-io/template-node/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/jdevelop-io/template-node)](/LICENSE)
 
 **Template Node** is a Node.js project scaffolding tool designed to speed up the initial setup of Node.js applications.
 This repository provides a solid foundation for building scalable and maintainable Node.js projects, with built-in best practices and commonly used configurations.

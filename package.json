@@ -16,7 +16,8 @@
   "scripts": {
     "prebuild": "rimraf build",
     "build": "bun build src/add.ts --outdir ./build",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@types/bun": "^1.1.6",

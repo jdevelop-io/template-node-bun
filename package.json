@@ -15,7 +15,8 @@
   "main": "src/add.ts",
   "scripts": {
     "prebuild": "rimraf build",
-    "build": "bun build src/add.ts --outdir ./build"
+    "build": "bun build src/add.ts --outdir ./build",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/bun": "^1.1.6",

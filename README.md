@@ -8,6 +8,17 @@
 **Template Node** is a Node.js project scaffolding tool designed to speed up the initial setup of Node.js applications.
 This repository provides a solid foundation for building scalable and maintainable Node.js projects, with built-in best practices and commonly used configurations.
 
+## Features
+
+- **TypeScript**: Use TypeScript for a better development experience and improved code quality.
+- **ESLint**: Lint your code with ESLint to maintain consistent coding standards.
+- **Prettier**: Format your code with Prettier to keep it clean and consistent.
+- **Jest**: Test your code with Jest to ensure its correctness and reliability.
+- **Husky**: Use Husky to run tasks on Git hooks and enforce code quality.
+- **Lint-Staged**: Run ESLint and Prettier on staged files to catch errors before committing.
+- **Commitlint**: Enforce conventional commit messages to keep your commit history clean and organized.
+- **GitHub Actions**: Use GitHub Actions for continuous integration and automated testing.
+
 ## Getting Started
 
 ### Prerequisites

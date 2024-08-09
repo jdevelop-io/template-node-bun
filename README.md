@@ -54,6 +54,18 @@ Make sure you have Node.js and Bun installed on your machine before running the 
    bun install
    ```
 
+### Scripts
+
+- `bun run build` : Build the project.
+- `bun run test` : Run the tests.
+- `bun run test:watch` : Run the tests in watch mode.
+- `bun run test:coverage` : Run the tests with coverage.
+- `bun run test:coverage:watch`: Run the tests with coverage in watch mode.
+- `bun run lint` : Lint the code and fix linting errors.
+- `bun run lint:check` : Check the code for linting errors.
+- `bun run format` : Format the code and fix formatting errors.
+- `bun run format:check` : Check the code for formatting errors.
+
 ### Project Structure
 
 ```plaintext

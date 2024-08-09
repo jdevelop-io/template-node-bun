@@ -48,11 +48,21 @@ Make sure you have Node.js and Bun installed on your machine before running the 
 ```plaintext
 template-node
 ├── .github
-│   └── workflows
-│       └── build.yml
+│   ├── workflows
+│   │   ├── build.yml
+│   │   └── tests.yml
 ├── node_modules
-├── LICENSE
+├── coverage
+├── build
+├── src
 ├── README.md
+├── LICENSE
+├── commitlint.config.mjs
+├── eslint.config.mjs
+├── jest.config.ts
+├── lint-staged.config.mjs
+├── prettier.config.mjs
+├── tsconfig.json
 ├── bun.lockb
 └── package.json
 ```

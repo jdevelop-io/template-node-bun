@@ -26,7 +26,7 @@ This repository provides a solid foundation for building scalable and maintainab
 Make sure you have Node.js and Bun installed on your machine before running the project.
 
 - [Node.js](https://nodejs.org/) (v22.5.1 or later)
-- [Bun](https://bun.js.org/) (v1.1.17 or later)
+- [Bun](https://bun.sh/) (v1.1.17 or later)
 
 ### Installation
 

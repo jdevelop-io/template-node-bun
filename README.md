@@ -20,17 +20,20 @@ Make sure you have Node.js and Bun installed on your machine before running the 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone --depth 1 https://github.com/jdevelop-io/template-node.git
    cd template-node
    ```
 
 2. Remove the `.git` directory to start with a clean git history:
+
    ```bash
    rm -rf .git
    ```
 
 3. Initialize a new git repository:
+
    ```bash
    git init
    ```

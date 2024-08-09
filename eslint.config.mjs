@@ -2,7 +2,7 @@ import globals from 'globals'
 import pluginJs from '@eslint/js'
 import tseslint from 'typescript-eslint'
 import eslintPluginJest from 'eslint-plugin-jest'
-import eslintPluginPrettier from 'eslint-plugin-prettier';
+import eslintPluginPrettier from 'eslint-plugin-prettier'
 import { includeIgnoreFile } from '@eslint/compat'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'

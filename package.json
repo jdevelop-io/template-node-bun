@@ -20,7 +20,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:coverage:watch": "jest --coverage --watch",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "lint:check": "eslint ."
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",

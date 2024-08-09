@@ -1,7 +1,8 @@
 import globals from 'globals'
 import pluginJs from '@eslint/js'
 import tseslint from 'typescript-eslint'
-import jestPlugins from 'eslint-plugin-jest'
+import eslintPluginJest from 'eslint-plugin-jest'
+import eslintPluginPrettier from 'eslint-plugin-prettier';
 import { includeIgnoreFile } from '@eslint/compat'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -14,13 +15,13 @@ const languageOptions = { globals: { ...globals.browser, ...globals.node } }
 
 export default [
   includeIgnoreFile(gitignorePath),
-  { files: ['**/*.{mjs,ts}'] },
+  { files: ['**/*.{mjs,ts}'], plugins: { prettier: eslintPluginPrettier } },
   { languageOptions: languageOptions },
   pluginJs.configs.recommended,
   {
-    plugins: { jest: jestPlugins },
+    plugins: { jest: eslintPluginJest },
     rules: {
-      ...jestPlugins.configs.recommended.rules,
+      ...eslintPluginJest.configs.recommended.rules,
     },
     files: ['**/*.test.ts'],
     languageOptions: {
